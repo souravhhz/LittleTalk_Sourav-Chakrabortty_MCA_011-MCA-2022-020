@@ -1,0 +1,81 @@
+/* .single-user{
+    width:fit-content;
+    
+    height:30px;
+} */
+.single-user {
+    background-color: rgba(198, 188, 188,0.6);
+    color: white;
+    cursor: pointer;
+    padding: 5px 7px;
+    border-radius: 10px;
+    /* margin-right: 0.5rem; */
+    margin-right: 3px;
+    height: 30px;
+    position: relative;
+  }
+
+.userSearch{
+    display: flex;
+    background-color: gray;
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+.userName{
+    color:white;
+}
+
+
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    .all-users{
+        width: 50%;
+    }
+    .single-user{
+        width:50px;
+        height:30px;
+    }
+    /* .userSearch{
+        padding: 7px;
+    } */
+    .userName{
+        font-size: 20px;
+    }
+    
+}
+@media only screen and (max-width:599px) {
+    .all-users{
+        width: 20%;
+    }
+    .single-user{
+        width:30px;
+        height:20px;
+        display: flex;
+    }
+    .userSearch{
+        height:20px;
+        width: 20px;
+        padding: 5px;
+    }
+    .userName{
+        font-size: 10px;
+    }
+    .chat-box{
+        display: none;
+    }
+    #NoConSec{
+        display: none;
+    }
+    .vstack{
+        display: none;
+    }
+    .Show-Mob-V{
+        display:flex;
+    }
+    .hide-Mob-V{
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+.CardLogin{
+    width: 50%;
+    /* background-color: rgba(255, 255, 255,); */
+}
+/* #RowLogin{
+     justify-content: center; 
+     text-align: center; 
+} */
+.vstack{
+    align-items: center;
+    padding: 1px;
+}
+
+#ButtonLogin{
+    width: 33%;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    .CardLogin{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:599px) {
+    .CardLogin{
+        width: 90%;
+    }
+}

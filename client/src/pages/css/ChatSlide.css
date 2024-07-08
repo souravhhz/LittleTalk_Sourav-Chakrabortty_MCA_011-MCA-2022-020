@@ -1,0 +1,71 @@
+
+.messages-box {
+    width:50%;
+    height: auto;
+  }
+/* User Card */
+.user-card {
+    color: white;
+    position: relative;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    width: 380px;
+  }
+  
+  .user-card .text-content {
+    width: 170px;
+  }
+  
+  .user-card .name {
+    font-weight: 700;
+  }
+  
+  .user-card .text,
+  .user-card .date {
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+  }
+ 
+
+
+
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    .messages-box {
+        width:40%;
+      }
+    .user-card{
+        /* margin: 0px;
+        padding: 0px; */
+        width: 150px;
+    }
+    .user-card .text-content {
+        /* margin: 0px;
+        padding: 0px; */
+        width: 100px;
+      }
+    .user-card .name {
+        font-weight: 300;
+    }
+    .user-card .text,
+    .user-card .date {
+        /* margin: 0px;
+        padding: 0px; */
+        font-size: 5px;
+    }
+}
+@media only screen and (max-width:599px) {
+    
+    .messages-box {
+        width:99%;
+        padding: 0px;
+    }
+    .user-card{
+        /* margin: 0px;
+        padding: 0px; */
+        width: 95%;
+    }
+    .userHand{
+        display: flex;
+        width: 100%;
+    }
+    
+}
